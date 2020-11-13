@@ -1,1 +1,6 @@
 <h1>SHOW</h1>
+
+
+<%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+<td><%= @cocktail.name %></td>
+<%= link_to '⏎ Back', root_path %>

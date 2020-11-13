@@ -79,11 +79,11 @@ default: &default
 
 development:
   <<: *default
-  database: rails-mister-cocktail_development
+  database: rails_mister_cocktail_development
 
 test:
   <<: *default
-  database: rails-mister-cocktail_test
+  database: rails_mister_cocktail_test
 
 production:
   <<: *default
