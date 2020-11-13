@@ -1,10 +1,17 @@
 
 <!-- ingredient + description -->
+
+<br>
+<br>
+<br>
+<br>
+<div class="container mt-4">
 <%= simple_form_for [@cocktail, @dose] do |f| %>
 <%= f.input :description %>
 <%= f.association :ingredient %>
 
 <%= f.submit %>
 <% end %>
+<%= link_to '⏎ Back', root_path %>
+</div>
 
-<%= link_to '⏎ Back', cocktails_path %>
